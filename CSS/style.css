@@ -1,0 +1,99 @@
+*{
+    text-align: center;
+    margin: 0px auto;
+}
+.container {
+	width: 1100px;
+	background-color: grey;
+	height: 560px;
+}
+.form-first {
+	background-color: rgb(17, 28, 15);
+	/* width: 400px; */
+	display: inline-block;
+	padding: 40px;
+	height: 255px;
+	border-radius: 10px;
+	align-content: center;
+	justify-content: center;
+}
+h1{
+    background-color: darkgray;;
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    color: aqua;
+    border: 2px solid aqua;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+
+}
+h1:hover{
+    background-color: aqua;
+    color: black;
+}
+hr {
+	color: red;
+	height: 4px;
+	background-color: red;
+	margin-bottom: 71px;
+}
+input::placeholder{
+    color: red;
+    text-align: left;
+}
+input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    border: 1px solid aqua;
+    padding: 4px;
+    border-radius: 6px;
+}
+input[type="submit"] {
+	background-color: aqua;
+	margin-left: -100px;
+	padding: 5px;
+	width: 94px;
+	cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: aquamarine;
+}
+label{
+    margin-left: -103px;
+    font-size: 20px;
+    color: aliceblue;
+}
+.creata {
+	background-color: #08f908;
+	display: inline-block;
+	padding: 8px;
+	border-radius: 5px;
+	color: black;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: -43px;
+}
+.creata:hover{
+    background-color: rgb(3, 166, 3);
+}
+.creata a {
+	color: black;
+	text-decoration: none;
+}
+.forgetp {
+	padding-bottom: 50px;
+	margin-top: 9px;
+	margin-left: 21px;
+	/* font-size: 28px; */
+}
+.forgetp a {
+	font-size: 20px;
+	text-decoration: none;
+    color: aqua;
+
+	/* padding-top: 20px; */
+}
